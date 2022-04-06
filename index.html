@@ -1,5 +1,5 @@
 <!--
-By: Hammam Ziadeh 
+By: Hammam Ziadeh
 Class: COM421
 
 Sources:
@@ -31,7 +31,7 @@ Sources:
                     <li class="item"><a href="#home" class="nav__link active">Home</a></li>
                     <li class="item"><a href="#about" class="nav__link">About</a></li>
                     <li class="item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="item"><a href="#work" class="nav__link">Projects</a></li>
                     <li class="item"><a href="#contact" class="nav__link">Contact</a></li>
                     <li class="item"><a href="assets/Resume.pdf" class="nav__link">Resume</a></li>
                 </ul>
@@ -48,9 +48,10 @@ Sources:
         </div>
 
         <div class="home__social">
-            <a href="https://www.linkedin.com/in/hammam-ziadeh/" class="home__social-icon"><i
+            <a target="_blank" href="https://www.linkedin.com/in/hammam-ziadeh/" class="home__social-icon"><i
                     class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/hammamziadeh10/" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            <a target="_blank" href="https://github.com/hammamziadeh10/" class="home__social-icon"><i
+                    class='bx bxl-github'></i></a>
         </div>
 
         <div class="home__img">
@@ -68,9 +69,8 @@ Sources:
 
             <div>
                 <h2 class="about__subtitle">I am Hammam</h2>
-                <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum
-                    expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo
-                    recusandae cumque perferendis! Recusandae alias accusamus atque.</p>
+                <p class="about__text">My name is Hammam Ziadeh. I’m an undergraduate student at Illinois Institute of Technology.
+                  I will be graduating with a bachelor’s degree in Computer Science in December 2022.</p>
             </div>
         </div>
     </section>
@@ -81,8 +81,6 @@ Sources:
         <div class="skills__container grid">
             <div>
                 <h2 class="skills__subtitle">Professional Skills</h2>
-                <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id
-                    vero amet, alias architecto consectetur error eum eaque sit.</p>
                 <div class="skills__data">
                     <div class="skills__names">
                         <i class='bx bxl-html5 skills__icon'></i>
@@ -92,7 +90,7 @@ Sources:
 
                     </div>
                     <div>
-                        <span class="skills__percentage">95%</span>
+                        <span class="skills__percentage">Advanced</span>
                     </div>
                 </div>
                 <div class="skills__data">
@@ -104,7 +102,7 @@ Sources:
 
                     </div>
                     <div>
-                        <span class="skills__percentage">85%</span>
+                        <span class="skills__percentage">Advanced</span>
                     </div>
                 </div>
                 <div class="skills__data">
@@ -116,7 +114,7 @@ Sources:
 
                     </div>
                     <div>
-                        <span class="skills__percentage">65%</span>
+                        <span class="skills__percentage">Novice</span>
                     </div>
                 </div>
                 <div class="skills__data">
@@ -128,7 +126,31 @@ Sources:
 
                     </div>
                     <div>
-                        <span class="skills__percentage">85%</span>
+                        <span class="skills__percentage">Intermediate</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>
+                        <span class="skills__name">Python</span>
+                    </div>
+                    <div class="skills__bar skills__ux">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">Advanced</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>
+                        <span class="skills__name">Java</span>
+                    </div>
+                    <div class="skills__bar skills__ux">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">Advanced</span>
                     </div>
                 </div>
             </div>
@@ -136,12 +158,38 @@ Sources:
     </section>
 
     <section class="work section" id="work">
-        <h2 class="section-title">Work</h2>
+        <h2 class="section-title">Projects</h2>
 
         <div class="work__container grid">
-            <a href="" class="work__img">
-                <img src="assets/img/airtune.png" alt="">
-            </a>
+            <div id="projectDesc">
+                <a target="_blank" href="https://github.com/hammamziadeh10/AirTune" class="work__img">
+                    <img src="assets/img/airtune.png" alt="">
+                </a>
+                <div id="desc">
+                    <h3>Airtune</h3>
+                    <p>An Android Mobile Application that allows Spotify users to add and listen to music together on
+                        one queue.</p>
+                </div>
+            </div>
+            <div id="projectDesc">
+                <a target="_blank" href="https://github.com/hammamziadeh10/read_review_backend" class="work__img">
+                    <img src="assets/img/read_review.png" alt="">
+                </a>
+                <div id="desc">
+                    <h3>Read Review</h3>
+                    <p>A Book Review Full-Stack Mobile & Web Application.</p>
+                </div>
+            </div>
+            <div id="projectDesc">
+                <a target="_blank" href="https://github.com/hammamziadeh10/Algorithmic-Trading" class="work__img">
+                    <img src="assets/img/algo_trading.png" alt="">
+                </a>
+                <div id="desc">
+                    <h3>Algorithmic Trading </h3>
+                    <p>An Algorithmic Trading program that analyzes S&P 500 using Momentum strategy and automatically
+                        buys the best stocks. It's connected to a Frontend to track progress.</p>
+                </div>
+            </div>
         </div>
     </section>
 
